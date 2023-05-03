@@ -16,8 +16,8 @@ import modAL
 from modAL.models import ActiveLearner
 from scipy.special import softmax
 
-from data.ucm import UCMDataSet
-from data.deepglobe import DeepGlobeDataSet
+from ucm import UCMDataSet
+from deepglobe import DeepGlobeDataSet
 
 torch.cuda.is_available()
 
